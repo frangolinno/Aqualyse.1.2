@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --sb-track-color: #ffffff;
+    --sb-thumb-color: #44584e;
+    --sb-size: 8px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+  }
+  
+::-webkit-scrollbar {
+    width: var(--sb-size) 
+  }
+  
+::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 26px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 26px;
+    
+    }
+
+
+body{
+
+    min-height: 100vh;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header.cab{
+    position: fixed;
+}
+
+header{
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 68px;
+}
+
+section.princ{
+    
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: rgb(42,174,215);
+    background: linear-gradient(312deg, rgba(42,174,215,1) 35%, rgba(205,255,216,1) 100%);
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.pt1{
+    padding-right: 300px;
+    display: grid;
+    place-items: center;
+}
+
+div.pt1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit;
+    font-size: 5em;
+    font-weight: 300;
+    color: #333;
+}
+
+div.pt1 button{
+    cursor: pointer;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 100px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 17px;
+    text-align: center;
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+}
+
+.botoes{
+    padding-right: 80px;
+}
+
+.bt1{
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.bt2{
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit;
+    font-weight: 500;
+    background-color: #2AAED7;
+    color: #FFFFFF;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(1);
+    background-position: 500px;
+  }
+
+
+.masc{
+    width: 500px;
+        
+}
+
+/* .rolagem{
+    position: absolute;
+    bottom: 6%;
+}
+
+.rolagem i{
+    display: block;
+    padding: 10px;
+    font-size: 23px;
+    color: #fff;
+    border-radius: 30px;
+    background: rgba(117,139,253,1);
+    transition: all .50s ease;
+    cursor: pointer;
+}
+
+.rolagem i:hover{
+    transform: translateY(5px);
+} */
+
+
+section.seg{
+    display: grid;
+    place-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background: rgb(42,174,215);
+    background: linear-gradient(312deg, rgba(42,174,215,1) 35%, rgba(205,255,216,1) 100%);
+}
+
+/* .rolagem2{
+    position: absolute;
+    padding-top: 820px;
+}
+
+.rolagem2 i{
+    display: block;
+    padding: 10px;
+    font-size: 23px;
+    color: #fff;
+    border-radius: 30px;
+    background: rgba(117,139,253,1);
+    transition: all .50s ease;
+    cursor: pointer;
+}
+
+.rolagem2 i:hover{
+    transform: translateY(5px);
+} */
+
+
+.container-2{
+   display: flex;
+   align-items: center;
+}
+
+div.pt1-2{
+    padding-left: 200px;
+    display: grid;
+    max-width: 45%;
+}
+
+div.pt1-2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit;
+    font-size: 3em;
+    font-weight: 300;
+    color: #191919;
+}
+
+div.pt1-2 span{
+    font-weight: 700;
+    color: #191919;
+}
+
+div.pt1-2 p{
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+    font-style: inherit;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.mundo{
+    padding-left: 200px;
+    
+}
+
+.mund{
+    width: 700px;
+}
+
+/* .mundo img{
+    transition: all 0.3s;
+    box-sizing: border-box;
+    width: 500px;
+}
+
+.mundo:hover img{
+    transform: scale(1.3) rotate(21deg);
+} */
+
+section.ter{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: rgb(42,174,215);
+background: linear-gradient(312deg, rgba(42,174,215,1) 35%, rgba(205,255,216,1) 100%);
+}
+
+section.ter h2{
+    font-weight: 400;
+    
+    font-family: 'Poppins', sans-serif;
+    color: #191919;
+    font-size: 2.7em;
+   
+}
+
+section.ter h3{
+    font-family: 'Poppins', sans-serif;
+    color: #191919;
+    font-size: 1.2em;
+}
+section.ter p{
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+    font-size: 14px;
+}
+
+.blocos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+
+.bloco1, .bloco2, .bloco3{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #f8f7f3;
+    max-width: 250px;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+
+.img{
+    border-top-right-radius: 50px;
+    width: 200px;
+    margin-bottom: 16px;
+}
+
+.img2{
+    border-top-right-radius: 50px;
+    width: 200px;
+    margin-bottom: 16px;
+}
+
+.img3{
+    border-top-right-radius: 50px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 16px;
+}
+
+div.container-3 button{
+    cursor: pointer;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 100px;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 17px;
+    text-align: center;
+    transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+}
+
+.bt1-2{
+    padding-left: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-style: inherit;
+    font-weight: 700;
+    background-color: transparent;
+    color: #191919;
+}
